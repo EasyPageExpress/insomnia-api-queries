@@ -1,0 +1,23 @@
+_id: req_317d2002ee314ab897f4a5c01616ba0a
+type: Request
+parentId: fld_1f7fef8df70748c48641c5c1b18da155
+modified: 1694193465574
+created: 1694193449110
+url: "{{ _['api-doc'] }}"
+name: api-doc
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1694193449110
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
