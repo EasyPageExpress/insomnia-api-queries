@@ -1,0 +1,27 @@
+_id: req_265b11d28fd04960b59d67886a657d8e
+type: Request
+parentId: wrk_03f45be58fd24b4c9b0d3af30954f934
+modified: 1694194158336
+created: 1694194041820
+url: "{{ _.local }}"
+name: Create teste
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: '{"Teste":"123"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication: {}
+metaSortKey: -1694194041820
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
