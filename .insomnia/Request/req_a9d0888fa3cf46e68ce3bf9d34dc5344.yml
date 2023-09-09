@@ -1,10 +1,10 @@
-_id: req_317d2002ee314ab897f4a5c01616ba0a
+_id: req_a9d0888fa3cf46e68ce3bf9d34dc5344
 type: Request
-parentId: fld_1f7fef8df70748c48641c5c1b18da155
-modified: 1694219900309
-created: 1694193449110
-url: "{{ _['api-doc'] }}"
-name: api-doc
+parentId: fld_4b2d2c89dd2d4c1981a888da10718de1
+modified: 1694206328160
+created: 1694194932788
+url: "{{ _.localhost }}user/show/4"
+name: Get-UserById
 description: ""
 method: GET
 body: {}
@@ -13,7 +13,7 @@ headers:
   - name: User-Agent
     value: insomnia/2023.5.8
 authentication: {}
-metaSortKey: -1694194874258
+metaSortKey: -1694194882606.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

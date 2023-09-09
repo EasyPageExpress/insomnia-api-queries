@@ -1,0 +1,37 @@
+_id: req_f30f6f4d785e4e7b85a7ebfb78b57789
+type: Request
+parentId: fld_4b2d2c89dd2d4c1981a888da10718de1
+modified: 1694206337744
+created: 1694194964926
+url: "{{ _.localhost }}user/update/4"
+name: Update-User
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"uuid": null,
+    	"name": "teste",
+    	"email": "matheus@gmail.com",
+    	"email_verified_at": "2023-09-08T20:20:27.000Z",
+    	"password": "123456",
+    	"remember_token": null,
+    	"createdAt": "2023-09-08T20:20:27.000Z",
+    	"updatedAt": "2023-09-08T20:20:27.000Z"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1694194875823.3438
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
