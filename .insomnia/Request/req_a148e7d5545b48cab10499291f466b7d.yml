@@ -1,0 +1,23 @@
+_id: req_a148e7d5545b48cab10499291f466b7d
+type: Request
+parentId: fld_2fbb668bee8f4c4a934429fe881d9fd2
+modified: 1694245885236
+created: 1694244615921
+url: "{{ _.localhost }}permission/findAll"
+name: Get-Permission
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1694194890955
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,23 @@
+_id: req_6a92d19e16b34ec8a4a24e1e221edcec
+type: Request
+parentId: fld_2fbb668bee8f4c4a934429fe881d9fd2
+modified: 1694382524234
+created: 1694244615925
+url: "{{ _.localhost }}permission/findOne/9"
+name: Get-Permission
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1694194882606.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
