@@ -1,0 +1,23 @@
+_id: req_7cd616bfc5f44a09871c75718ddb9cbe
+type: Request
+parentId: fld_4b585a3d7fb94fb3a4721c9f459ae695
+modified: 1694386188052
+created: 1694386014257
+url: "{{ _.localhost }}usergroup/delete/3"
+name: Delete-UserGroup
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1694386014257
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

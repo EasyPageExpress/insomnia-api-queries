@@ -1,0 +1,23 @@
+_id: req_6d79287f97384bf088e61db09722c6f6
+type: Request
+parentId: fld_4b585a3d7fb94fb3a4721c9f459ae695
+modified: 1694385656304
+created: 1694385605163
+url: "{{ _.localhost }}usergroup/index"
+name: Get-UserGroups
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1694385605163
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

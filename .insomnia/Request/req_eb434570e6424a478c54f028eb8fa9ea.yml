@@ -1,0 +1,31 @@
+_id: req_eb434570e6424a478c54f028eb8fa9ea
+type: Request
+parentId: fld_4b585a3d7fb94fb3a4721c9f459ae695
+modified: 1694386065311
+created: 1694385098857
+url: "{{ _.localhost }}usergroup/create"
+name: Create-UserGroup
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "teste delete",
+    	"label": "Delete"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1694385098857
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

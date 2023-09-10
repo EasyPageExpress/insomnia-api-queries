@@ -1,0 +1,31 @@
+_id: req_9b293eec0f6340dba81039b29df3adf9
+type: Request
+parentId: fld_4b585a3d7fb94fb3a4721c9f459ae695
+modified: 1694386011228
+created: 1694385847438
+url: "{{ _.localhost }}usergroup/update/2"
+name: Update-UserGroup
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name":"Assistente técnicos",
+    	"label": "Assistente visitante"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1694385847438
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
