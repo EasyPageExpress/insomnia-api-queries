@@ -1,9 +1,9 @@
 _id: req_be809c127dd54fb49a5b1fa9c0bd16db
 type: Request
 parentId: fld_4b2d2c89dd2d4c1981a888da10718de1
-modified: 1694224899013
+modified: 1694383608570
 created: 1694194890955
-url: "{{ _.prod }}user/index"
+url: "{{ _.localhost }}user/findAll"
 name: Get-Users
 description: ""
 method: GET

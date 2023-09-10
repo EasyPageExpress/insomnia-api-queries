@@ -1,9 +1,9 @@
 _id: req_d0d9037e91d041179653bdd9cc0cdb8b
 type: Request
 parentId: fld_4b2d2c89dd2d4c1981a888da10718de1
-modified: 1694222635694
+modified: 1694383242946
 created: 1694194948823
-url: "{{ _.stage }}user/create"
+url: "{{ _.localhost }}user/create"
 name: Create-User
 description: ""
 method: POST
@@ -11,7 +11,6 @@ body:
   mimeType: application/json
   text: |-
     {
-    	
     "first_name": "matheus",
     "last_name": "Oliveira",
     "email": "matheus@gmail.com",
