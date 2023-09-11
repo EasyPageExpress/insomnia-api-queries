@@ -1,0 +1,23 @@
+_id: req_0999de710ac940129e870b315ce1d23e
+type: Request
+parentId: fld_d9f9ae2488694e34a9fa5dc6ea8c9fc8
+modified: 1694404941419
+created: 1694404697627
+url: "{{ _.localhost }}permissionusergroup/delete/9"
+name: Delete-PermissionUserGroup
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1694404648647
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

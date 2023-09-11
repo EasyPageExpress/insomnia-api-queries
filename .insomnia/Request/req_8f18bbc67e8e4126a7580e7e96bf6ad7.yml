@@ -1,0 +1,31 @@
+_id: req_8f18bbc67e8e4126a7580e7e96bf6ad7
+type: Request
+parentId: fld_d9f9ae2488694e34a9fa5dc6ea8c9fc8
+modified: 1694405045391
+created: 1694404694313
+url: "{{ _.localhost }}permissionusergroup/update/2"
+name: Update-PermissionUserGroup
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {	
+    "id_usergroup": 4,
+    "id_permission": 9
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1694404648697
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
