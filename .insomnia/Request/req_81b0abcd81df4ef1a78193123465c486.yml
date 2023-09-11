@@ -1,19 +1,15 @@
-_id: req_eb434570e6424a478c54f028eb8fa9ea
+_id: req_81b0abcd81df4ef1a78193123465c486
 type: Request
-parentId: fld_4b585a3d7fb94fb3a4721c9f459ae695
-modified: 1694389251298
-created: 1694385098857
-url: "{{ _.localhost }}usergroup/create"
-name: Create-UserGroup
+parentId: fld_54edc24a0c05494cbb1eaeb392e04456
+modified: 1694391740060
+created: 1694391710849
+url: "{{ _.localhost }}auth/logout"
+name: logout-Auth
 description: ""
 method: POST
 body:
   mimeType: application/json
-  text: |-
-    {
-    	"name": "teste delete",
-    	"label": "Delete"
-    }
+  text: ""
 parameters: []
 headers:
   - name: Content-Type
@@ -21,7 +17,7 @@ headers:
   - name: User-Agent
     value: insomnia/2023.5.8
 authentication: {}
-metaSortKey: -1694386014357
+metaSortKey: -1694194891005
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

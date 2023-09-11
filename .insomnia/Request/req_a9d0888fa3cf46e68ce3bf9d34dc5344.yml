@@ -1,9 +1,9 @@
 _id: req_a9d0888fa3cf46e68ce3bf9d34dc5344
 type: Request
 parentId: fld_4b2d2c89dd2d4c1981a888da10718de1
-modified: 1694383631493
+modified: 1694389207700
 created: 1694194932788
-url: "{{ _.localhost }}user//findOne/1"
+url: "{{ _.localhost }}user/findOne/1"
 name: Get-UserById
 description: ""
 method: GET

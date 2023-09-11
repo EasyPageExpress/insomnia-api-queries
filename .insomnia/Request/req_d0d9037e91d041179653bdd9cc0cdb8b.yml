@@ -1,7 +1,7 @@
 _id: req_d0d9037e91d041179653bdd9cc0cdb8b
 type: Request
 parentId: fld_4b2d2c89dd2d4c1981a888da10718de1
-modified: 1694383242946
+modified: 1694401236435
 created: 1694194948823
 url: "{{ _.localhost }}user/create"
 name: Create-User
@@ -11,11 +11,12 @@ body:
   mimeType: application/json
   text: |-
     {
-    "first_name": "matheus",
+    "first_name": "jhon",
     "last_name": "Oliveira",
-    "email": "matheus@gmail.com",
+    "email": "jhon.doe@gmail.com",
     "password": "123456",
-    "passwordConfirmation": "123456"
+    "passwordConfirmation": "123456",
+    "user_type": "Administrador"
     }
 parameters: []
 headers:

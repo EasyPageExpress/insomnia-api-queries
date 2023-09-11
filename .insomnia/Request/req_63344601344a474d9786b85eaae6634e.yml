@@ -1,23 +1,18 @@
-_id: req_f30f6f4d785e4e7b85a7ebfb78b57789
+_id: req_63344601344a474d9786b85eaae6634e
 type: Request
-parentId: fld_4b2d2c89dd2d4c1981a888da10718de1
-modified: 1694400916570
-created: 1694194964926
-url: "{{ _.localhost }}user/update/1"
-name: Update-User
+parentId: fld_54edc24a0c05494cbb1eaeb392e04456
+modified: 1694391634730
+created: 1694391538081
+url: "{{ _.localhost }}auth/update/8"
+name: Update-Auth
 description: ""
 method: PUT
 body:
   mimeType: application/json
   text: |-
     {
-    	"name": "teste",
-    	"email": "matheus@gmail.com",
-    	"email_verified_at": "2023-09-08T20:20:27.000Z",
-      "password": "123456",
-    	"passwordConfirmation": "123456",
-    	"remember_token": null,
-    	"user_type": "Administrador"
+      "actions": "read1",
+      "subjects": "Auth1"
     }
 parameters: []
 headers:
