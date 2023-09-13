@@ -1,17 +1,18 @@
-_id: req_81b0abcd81df4ef1a78193123465c486
+_id: req_0ba876d877f048e18e2efeeb9750f0f6
 type: Request
-parentId: fld_54edc24a0c05494cbb1eaeb392e04456
-modified: 1694601612895
-created: 1694391710849
-url: "{{ _.localhost }}auth/refreshToken"
-name: RefreshToken-Auth
+parentId: fld_d9f9ae2488694e34a9fa5dc6ea8c9fc8
+modified: 1694404894779
+created: 1694404699253
+url: "{{ _.localhost }}permissionusergroup/create"
+name: Create-PermissionUserGroup
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-      "refreshToken": "{{ _.refreshToken }}"
+    	"id_usergroup":4,
+    	"id_permission":9
     }
 parameters: []
 headers:
@@ -20,7 +21,7 @@ headers:
   - name: User-Agent
     value: insomnia/2023.5.8
 authentication: {}
-metaSortKey: -1694194891005
+metaSortKey: -1694404699253
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

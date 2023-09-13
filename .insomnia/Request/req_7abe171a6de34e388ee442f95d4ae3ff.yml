@@ -1,10 +1,10 @@
-_id: req_719fba107f394f348d5b24cb0eaa25d7
+_id: req_7abe171a6de34e388ee442f95d4ae3ff
 type: Request
-parentId: fld_4b585a3d7fb94fb3a4721c9f459ae695
-modified: 1694496027631
-created: 1694385672035
-url: "{{ _.localhost }}usergroup/findOne/1"
-name: Get-UserGroupById
+parentId: fld_d9f9ae2488694e34a9fa5dc6ea8c9fc8
+modified: 1694404928515
+created: 1694404648747
+url: "{{ _.localhost }}permissionusergroup/show/9"
+name: Get-PermissionUserGroupById
 description: ""
 method: GET
 body: {}
@@ -13,7 +13,7 @@ headers:
   - name: User-Agent
     value: insomnia/2023.5.8
 authentication: {}
-metaSortKey: -1694386014307
+metaSortKey: -1694404648747
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
