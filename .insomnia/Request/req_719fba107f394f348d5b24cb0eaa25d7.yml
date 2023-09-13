@@ -1,9 +1,9 @@
 _id: req_719fba107f394f348d5b24cb0eaa25d7
 type: Request
 parentId: fld_4b585a3d7fb94fb3a4721c9f459ae695
-modified: 1694389255281
+modified: 1694496027631
 created: 1694385672035
-url: "{{ _.localhost }}usergroup/show/1"
+url: "{{ _.localhost }}usergroup/findOne/1"
 name: Get-UserGroupById
 description: ""
 method: GET
