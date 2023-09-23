@@ -1,9 +1,9 @@
 _id: req_7cd616bfc5f44a09871c75718ddb9cbe
 type: Request
 parentId: fld_4b585a3d7fb94fb3a4721c9f459ae695
-modified: 1694386188052
+modified: 1694495570762
 created: 1694386014257
-url: "{{ _.localhost }}usergroup/delete/3"
+url: "{{ _.localhost }}usergroup/delete/4"
 name: Delete-UserGroup
 description: ""
 method: DELETE

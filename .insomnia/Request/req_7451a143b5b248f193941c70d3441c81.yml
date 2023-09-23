@@ -1,7 +1,7 @@
 _id: req_7451a143b5b248f193941c70d3441c81
 type: Request
 parentId: fld_54edc24a0c05494cbb1eaeb392e04456
-modified: 1694391742889
+modified: 1694487090539
 created: 1694391538066
 url: "{{ _.localhost }}auth/login"
 name: Login-Auth
@@ -9,7 +9,11 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: ""
+  text: |-
+    {
+    	"email": "matheus@gmail.com",
+    	"password": "123456"
+    }
 parameters: []
 headers:
   - name: Content-Type
