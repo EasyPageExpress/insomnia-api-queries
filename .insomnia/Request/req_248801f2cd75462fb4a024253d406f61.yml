@@ -1,0 +1,23 @@
+_id: req_248801f2cd75462fb4a024253d406f61
+type: Request
+parentId: wrk_2a29bc71d7bd4be8a4c68a985b07267e
+modified: 1695258077360
+created: 1695257536541
+url: "{{ _.localhost }}customer/findAll"
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695257536541
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
