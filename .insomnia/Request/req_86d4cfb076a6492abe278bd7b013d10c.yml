@@ -1,19 +1,19 @@
-_id: req_7abe171a6de34e388ee442f95d4ae3ff
+_id: req_86d4cfb076a6492abe278bd7b013d10c
 type: Request
-parentId: fld_d9f9ae2488694e34a9fa5dc6ea8c9fc8
-modified: 1694560645587
-created: 1694404648747
-url: "{{ _.localhost }}permissionusergroup/findOne/1"
-name: Get-PermissionUserGroupById
+parentId: fld_5bf50ed0767b420cabf6a22d1fd1249d
+modified: 1694565115525
+created: 1694562222056
+url: "{{ _.localhost }}customer/delete/8"
+name: Delete-Customer
 description: ""
-method: GET
+method: DELETE
 body: {}
 parameters: []
 headers:
   - name: User-Agent
     value: insomnia/2023.5.8
 authentication: {}
-metaSortKey: -1694404648747
+metaSortKey: -1694559896175
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
