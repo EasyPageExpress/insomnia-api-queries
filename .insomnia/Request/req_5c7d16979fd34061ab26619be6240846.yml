@@ -1,9 +1,9 @@
 _id: req_5c7d16979fd34061ab26619be6240846
 type: Request
 parentId: fld_d9f9ae2488694e34a9fa5dc6ea8c9fc8
-modified: 1694404867907
+modified: 1694560626404
 created: 1694404669379
-url: "{{ _.localhost }}permissionusergroup/index"
+url: "{{ _.localhost }}permissionusergroup/findAll"
 name: Get-PermissionUserGroups
 description: ""
 method: GET
