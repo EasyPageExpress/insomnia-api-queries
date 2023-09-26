@@ -1,0 +1,34 @@
+_id: req_f1f24f30bf1c41dabcbd549c797253a9
+type: Request
+parentId: fld_65b140d4bd1e491c83103df7dd82f4a6
+modified: 1695600780293
+created: 1695591451412
+url: "{{ _.localhost }}permission/create"
+name: Create-Organization
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "",
+    	"contryCode": "",
+    	"document": "",
+    	"typeDocument": "",
+    	"user_id": ""
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1694194891055
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
