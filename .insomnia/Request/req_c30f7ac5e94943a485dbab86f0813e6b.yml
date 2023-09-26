@@ -1,0 +1,34 @@
+_id: req_c30f7ac5e94943a485dbab86f0813e6b
+type: Request
+parentId: fld_65b140d4bd1e491c83103df7dd82f4a6
+modified: 1695600806196
+created: 1695591451421
+url: "{{ _.localhost }}organization/update/8"
+name: Update-Organization
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "",
+    	"contryCode": "",
+    	"document": "",
+    	"typeDocument": "",
+    	"user_id": ""
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1694194875823.3438
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
