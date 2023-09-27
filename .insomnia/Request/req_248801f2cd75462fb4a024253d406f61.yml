@@ -1,7 +1,7 @@
 _id: req_248801f2cd75462fb4a024253d406f61
 type: Request
 parentId: fld_742d67349e804420a896c06fc0350698
-modified: 1695764060308
+modified: 1695778348216
 created: 1695257536541
 url: "{{ _.localhost }}sendgrid/send"
 name: Send-Email
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    "email": "uelinton.souza02@gmail.com", 
+    "email": "jacquie1888@uorak.com", 
     	"type": "resetPassword"
     }
 parameters: []
