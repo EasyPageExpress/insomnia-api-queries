@@ -1,0 +1,31 @@
+_id: req_248801f2cd75462fb4a024253d406f61
+type: Request
+parentId: fld_742d67349e804420a896c06fc0350698
+modified: 1695778348216
+created: 1695257536541
+url: "{{ _.localhost }}sendgrid/send"
+name: Send-Email
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    "email": "jacquie1888@uorak.com", 
+    	"type": "resetPassword"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695764060085
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
