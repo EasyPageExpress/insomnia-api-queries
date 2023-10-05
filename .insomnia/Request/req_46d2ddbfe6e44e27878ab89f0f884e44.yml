@@ -1,0 +1,43 @@
+_id: req_46d2ddbfe6e44e27878ab89f0f884e44
+type: Request
+parentId: fld_4c0d28ba088c44fcac6f6bc556a02b01
+modified: 1695778313462
+created: 1695778099710
+url: "{{ _.localhost }}templateEmail/create"
+name: Create-Template
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: "\ 
+
+    \t\t{
+
+    \t\t\t\"type\": \"welcome\",
+
+    \t\t\t\"from\": \"suporte@rapidfunnels.com.br\",
+
+    \t\t\t\"subject\": \"Welcome\",
+
+    \t\t\t\"urlBucket\":
+    \"https://avivare-pwa.s3.sa-east-1.amazonaws.com/teste-email/mail-verify-em\
+    ail.html\"
+
+    \t\t}
+
+    \ "
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695778099710
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

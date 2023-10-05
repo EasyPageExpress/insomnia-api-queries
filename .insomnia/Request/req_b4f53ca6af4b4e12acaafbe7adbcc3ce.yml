@@ -1,19 +1,19 @@
-_id: req_a9d0888fa3cf46e68ce3bf9d34dc5344
+_id: req_b4f53ca6af4b4e12acaafbe7adbcc3ce
 type: Request
-parentId: fld_4b2d2c89dd2d4c1981a888da10718de1
-modified: 1695181094656
-created: 1694194932788
-url: "{{ _.localhost }}user/findOne/4"
-name: Get-UserById
+parentId: fld_4c0d28ba088c44fcac6f6bc556a02b01
+modified: 1695778454422
+created: 1695778370614
+url: "{{ _.localhost }}templateEmail/delete/5"
+name: Delete-Template
 description: ""
-method: GET
+method: DELETE
 body: {}
 parameters: []
 headers:
   - name: User-Agent
     value: insomnia/2023.5.8
 authentication: {}
-metaSortKey: -1694194882606.5
+metaSortKey: -1695778370614
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

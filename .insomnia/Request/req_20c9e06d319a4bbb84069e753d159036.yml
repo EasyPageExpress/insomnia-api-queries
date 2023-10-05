@@ -1,18 +1,19 @@
-_id: req_7451a143b5b248f193941c70d3441c81
+_id: req_20c9e06d319a4bbb84069e753d159036
 type: Request
-parentId: fld_54edc24a0c05494cbb1eaeb392e04456
-modified: 1695259982470
-created: 1694391538066
-url: "{{ _.localhost }}auth/login"
-name: Login-Auth
+parentId: fld_be55828850374c3ea5ce1d3b8444f16e
+modified: 1695172848790
+created: 1695170301475
+url: "{{ _.localhost }}passwordOldUsers/create"
+name: Create-PasswordUserOld
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
+    
     {
-    	"email": "corlhog@gmail.com",
-    	"password": "1234567"
+    	"password_old":"1234569#",
+    	"user_id":4
     }
 parameters: []
 headers:
@@ -21,7 +22,7 @@ headers:
   - name: User-Agent
     value: insomnia/2023.5.8
 authentication: {}
-metaSortKey: -1694194891055
+metaSortKey: -1695170301475
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

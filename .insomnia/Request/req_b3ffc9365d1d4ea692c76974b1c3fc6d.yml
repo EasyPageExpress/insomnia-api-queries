@@ -1,18 +1,17 @@
-_id: req_7451a143b5b248f193941c70d3441c81
+_id: req_b3ffc9365d1d4ea692c76974b1c3fc6d
 type: Request
-parentId: fld_54edc24a0c05494cbb1eaeb392e04456
-modified: 1695259982470
-created: 1694391538066
-url: "{{ _.localhost }}auth/login"
-name: Login-Auth
+parentId: fld_7f8da9f313e547129a09a755599a778a
+modified: 1695250545447
+created: 1695245179866
+url: "{{ _.localhost }}security/forgotPassword"
+name: Post-ForgotPassword
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"email": "corlhog@gmail.com",
-    	"password": "1234567"
+    	"email":"corlhog@gmail.com"
     }
 parameters: []
 headers:
@@ -21,7 +20,7 @@ headers:
   - name: User-Agent
     value: insomnia/2023.5.8
 authentication: {}
-metaSortKey: -1694194891055
+metaSortKey: -1695211019140
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
