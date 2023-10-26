@@ -1,7 +1,7 @@
 _id: req_d0d9037e91d041179653bdd9cc0cdb8b
 type: Request
 parentId: fld_4b2d2c89dd2d4c1981a888da10718de1
-modified: 1695735278850
+modified: 1696634104366
 created: 1694194948823
 url: "{{ _.localhost }}user/create"
 name: Create-User
@@ -11,15 +11,15 @@ body:
   mimeType: application/json
   text: |-
     {
-    "first_name": "Yuri",
-    "last_name": "Oliver Lopes",
-    "email": "yuri_lopes@@gmail.com",
+    "first_name": "Uélinton",
+    "last_name": "Matos Souza de Oliveira",
+    "email": "uelinton.souza02@@gmail.com",
     "password": "123456",
     "passwordConfirmation": "123456",
     "user_type": "admin",
-    "cellphone": "11 99371-8076",
-    "document": "03.718.149/0001-07",
-    "birth_date": "13/01/2001"
+    "cellphone": "11 98660-6655",
+    "document": "44153332810",
+    "birth_date": "19/01/1994"
     }
 parameters: []
 headers:
