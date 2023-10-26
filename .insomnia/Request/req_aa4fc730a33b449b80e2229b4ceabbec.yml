@@ -1,0 +1,23 @@
+_id: req_aa4fc730a33b449b80e2229b4ceabbec
+type: Request
+parentId: fld_4c0d28ba088c44fcac6f6bc556a02b01
+modified: 1695778062510
+created: 1695402153102
+url: "{{ _.localhost }}templateEmail/findOne/2"
+name: Get-TemplateMailById
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695402153102
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
