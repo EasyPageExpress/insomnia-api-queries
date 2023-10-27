@@ -1,19 +1,15 @@
-_id: req_7451a143b5b248f193941c70d3441c81
+_id: req_8e438cc5c5e84e809eb3ebbb9bc4e6aa
 type: Request
-parentId: fld_54edc24a0c05494cbb1eaeb392e04456
-modified: 1695259982470
-created: 1694391538066
-url: "{{ _.localhost }}auth/login"
-name: Login-Auth
+parentId: fld_be55828850374c3ea5ce1d3b8444f16e
+modified: 1695179052946
+created: 1695172717082
+url: "{{ _.localhost }}passwordOldUsers/findOne/4"
+name: Get-PasswordOldByUserId
 description: ""
-method: POST
+method: GET
 body:
   mimeType: application/json
-  text: |-
-    {
-    	"email": "corlhog@gmail.com",
-    	"password": "1234567"
-    }
+  text: ""
 parameters: []
 headers:
   - name: Content-Type
@@ -21,7 +17,7 @@ headers:
   - name: User-Agent
     value: insomnia/2023.5.8
 authentication: {}
-metaSortKey: -1694194891055
+metaSortKey: -1695172717082
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

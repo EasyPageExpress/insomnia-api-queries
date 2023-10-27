@@ -1,0 +1,36 @@
+_id: req_7c82d933f0344cb4bb6ab442c46539b7
+type: Request
+parentId: fld_5bf50ed0767b420cabf6a22d1fd1249d
+modified: 1694565131697
+created: 1694559896275
+url: "{{ _.localhost }}customer/create"
+name: Create-Customer
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "user_id": 1,
+      "first_name": "Matheus",
+      "last_name": "Matos",
+      "cellphone": "(11) 98722-4321",
+      "document": "44153332810",
+      "popup_notification": true,
+      "birth_date": "1994-01-19"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1694560992239
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
