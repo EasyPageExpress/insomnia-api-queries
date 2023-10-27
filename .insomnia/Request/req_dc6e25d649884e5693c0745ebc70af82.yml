@@ -1,10 +1,10 @@
-_id: req_cd68855cd092419a99ce72bbe565944a
+_id: req_dc6e25d649884e5693c0745ebc70af82
 type: Request
-parentId: fld_5bf50ed0767b420cabf6a22d1fd1249d
-modified: 1696040199374
-created: 1694560197562
-url: "{{ _.localhost }}customer/findOne/4"
-name: Get-CustomerById
+parentId: fld_be55828850374c3ea5ce1d3b8444f16e
+modified: 1695170201007
+created: 1695170023428
+url: "{{ _.localhost }}passwordOldUsers/findAll"
+name: Get-PasswordUserOlds
 description: ""
 method: GET
 body: {}
@@ -13,7 +13,7 @@ headers:
   - name: User-Agent
     value: insomnia/2023.5.8
 authentication: {}
-metaSortKey: -1694560197562
+metaSortKey: -1695170023428
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

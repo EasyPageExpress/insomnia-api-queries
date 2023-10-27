@@ -1,7 +1,7 @@
 _id: req_be809c127dd54fb49a5b1fa9c0bd16db
 type: Request
 parentId: fld_4b2d2c89dd2d4c1981a888da10718de1
-modified: 1694383608570
+modified: 1696180177639
 created: 1694194890955
 url: "{{ _.localhost }}user/findAll"
 name: Get-Users
@@ -12,7 +12,8 @@ parameters: []
 headers:
   - name: User-Agent
     value: insomnia/2023.5.8
-authentication: {}
+authentication:
+  type: bearer
 metaSortKey: -1694194890955
 isPrivate: false
 settingStoreCookies: true

@@ -1,18 +1,19 @@
-_id: req_7451a143b5b248f193941c70d3441c81
+_id: req_081fdc52dfed40748b8cade4d68fca73
 type: Request
-parentId: fld_54edc24a0c05494cbb1eaeb392e04456
-modified: 1695259982470
-created: 1694391538066
-url: "{{ _.localhost }}auth/login"
-name: Login-Auth
+parentId: fld_7f8da9f313e547129a09a755599a778a
+modified: 1695259745437
+created: 1695242264665
+url: "{{ _.localhost }}security/resetPassword"
+name: Post-ResetPassword
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"email": "corlhog@gmail.com",
-    	"password": "1234567"
+    	"user_id":4,
+    	"newPassword":"123456912",
+    	"newPasswordConfirmation":"123456912"
     }
 parameters: []
 headers:
@@ -21,7 +22,7 @@ headers:
   - name: User-Agent
     value: insomnia/2023.5.8
 authentication: {}
-metaSortKey: -1694194891055
+metaSortKey: -1695242264665
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
