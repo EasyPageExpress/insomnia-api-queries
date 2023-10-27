@@ -1,9 +1,9 @@
 _id: req_6050bce5e04c49e6bf951830ac717cd4
 type: Request
 parentId: fld_4b2d2c89dd2d4c1981a888da10718de1
-modified: 1694208893251
+modified: 1695731386314
 created: 1694194979780
-url: "{{ _.localhost }}user/delete/7"
+url: "{{ _.localhost }}user/delete/3"
 name: Delete-User
 description: ""
 method: DELETE

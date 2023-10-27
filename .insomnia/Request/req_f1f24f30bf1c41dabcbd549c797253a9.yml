@@ -1,18 +1,21 @@
-_id: req_7451a143b5b248f193941c70d3441c81
+_id: req_f1f24f30bf1c41dabcbd549c797253a9
 type: Request
-parentId: fld_54edc24a0c05494cbb1eaeb392e04456
-modified: 1695259982470
-created: 1694391538066
-url: "{{ _.localhost }}auth/login"
-name: Login-Auth
+parentId: fld_65b140d4bd1e491c83103df7dd82f4a6
+modified: 1695600780293
+created: 1695591451412
+url: "{{ _.localhost }}permission/create"
+name: Create-Organization
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"email": "corlhog@gmail.com",
-    	"password": "1234567"
+      "name": "",
+    	"contryCode": "",
+    	"document": "",
+    	"typeDocument": "",
+    	"user_id": ""
     }
 parameters: []
 headers:

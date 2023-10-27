@@ -1,0 +1,34 @@
+_id: req_a0a51d2476de4824860bee5cb4f2733b
+type: Request
+parentId: fld_7f8da9f313e547129a09a755599a778a
+modified: 1695259970237
+created: 1695179773615
+url: "{{ _.localhost }}security/changePassword"
+name: Post-ChangePassword
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"passwordOld":"123456912",
+    	"newPassword":"1234567",
+    	"newPasswordConfirmation":"1234567"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQsInJvbGUiOiJhZG1pbiIsImlhdCI6MTY5NTI1OTg2NSwiZXhwIjoxNjk1MzQ2MjY1fQ.502koU3BfQIkulcDM_yxo_GuJbR8ZxMMaaCt6gR4BaI
+metaSortKey: -1695179773615
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

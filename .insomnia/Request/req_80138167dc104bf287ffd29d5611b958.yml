@@ -1,10 +1,10 @@
-_id: req_7abe171a6de34e388ee442f95d4ae3ff
+_id: req_80138167dc104bf287ffd29d5611b958
 type: Request
-parentId: fld_d9f9ae2488694e34a9fa5dc6ea8c9fc8
-modified: 1694560645587
-created: 1694404648747
-url: "{{ _.localhost }}permissionusergroup/findOne/1"
-name: Get-PermissionUserGroupById
+parentId: fld_4c0d28ba088c44fcac6f6bc556a02b01
+modified: 1695778087812
+created: 1695778068425
+url: "{{ _.localhost }}templateEmail/findAll"
+name: Get-TemplateMails
 description: ""
 method: GET
 body: {}
@@ -13,7 +13,7 @@ headers:
   - name: User-Agent
     value: insomnia/2023.5.8
 authentication: {}
-metaSortKey: -1694404648747
+metaSortKey: -1695778068425
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

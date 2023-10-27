@@ -1,0 +1,34 @@
+_id: req_2295b987b5f24c37802d72a05a9807de
+type: Request
+parentId: fld_5bf50ed0767b420cabf6a22d1fd1249d
+modified: 1696180431988
+created: 1694560992139
+url: "{{ _.localhost }}customer/update"
+name: Update-Customer
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    		"name": "Uélinton Uélinton Matosss",
+    		"cellphone": "11986606666",
+    		"document": "44153332811"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: "{{ _.accessToken }}"
+metaSortKey: -1694560046868.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
