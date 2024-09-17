@@ -1,0 +1,23 @@
+_id: req_45d983a44685411484644fd59c54d143
+type: Request
+parentId: fld_9bf7894b47dd45ad894b94d5aa85e5ca
+modified: 1698455625206
+created: 1698451295225
+url: "{{ _.localhost }}languages/delete/1"
+name: Delete-Language
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1698451295225
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

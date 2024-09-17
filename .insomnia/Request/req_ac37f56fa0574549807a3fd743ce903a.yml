@@ -1,0 +1,27 @@
+_id: req_ac37f56fa0574549807a3fd743ce903a
+type: Request
+parentId: fld_f45db753b71f4250b693f2b96234a7ca
+modified: 1698451179325
+created: 1698450960330
+url: "{{ _.localhost }}funnel/update/3"
+name: Update-Funnels
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: '{"name": "teste funnelss"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1698450960330
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

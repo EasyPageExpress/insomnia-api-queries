@@ -1,0 +1,30 @@
+_id: req_bafe20d812ab46fc96a7ff9e7a20eec0
+type: Request
+parentId: fld_9bf7894b47dd45ad894b94d5aa85e5ca
+modified: 1698455595507
+created: 1698451297997
+url: "{{ _.localhost }}/languages/update/1"
+name: Update-Language
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    "name":"Pt-br"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1698451297997
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

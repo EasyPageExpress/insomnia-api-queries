@@ -1,0 +1,30 @@
+_id: req_23aa916793874d60913b733777e3f363
+type: Request
+parentId: fld_9bf7894b47dd45ad894b94d5aa85e5ca
+modified: 1698452582492
+created: 1698451300222
+url: "{{ _.localhost }}languages/create/"
+name: Create-Language
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    "name":"Pt-br"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1698451300222
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
